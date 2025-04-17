@@ -53,8 +53,6 @@ cd log-entry-manager
 ```bash
 cd server
 npm install
-npx tsc --init                # Initialize TypeScript if not already done
-
 npm start                     # Start the server
                               
 npx kill-port 3001            # Use this if the port address is already in use 
